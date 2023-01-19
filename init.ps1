@@ -79,6 +79,7 @@ try {
     & $mkcert -install
     & $mkcert "*.sxastarter.localhost"
     & $mkcert "xmcloudcm.localhost"
+    & $mkcert "*.chartwell.com"
 
     # stash CAROOT path for messaging at the end of the script
     $caRoot = "$(& $mkcert -CAROOT)\rootCA.pem"
@@ -99,6 +100,7 @@ Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
 Add-HostsEntry "xmcloudcm.localhost"
 Add-HostsEntry "www.sxastarter.localhost"
+Add-HostsEntry "xmcloudcm.chartwell.com"
 
 ###############################
 # Generate scjssconfig
