@@ -59,7 +59,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   if (!Object.values(props.fields).length) {
     return (
       <div className={`component navigation ${styles}`} id={id ? id : undefined}>
-        <div className="component-content">[Navigation]</div>
+        <div className="component-content">[Navigation] (FE)D:\workspace\xm-cloud-local\xm-dev-local\src\sxastarter\src\components\Navigation.tsx</div>
       </div>
     );
   }

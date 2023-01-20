@@ -1,0 +1,103 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "RenderingHost-overrrideYB",
+    "items": {
+        "includes": [
+
+            /*{
+                "name": "ChartwellTemplates",
+                "path": "/sitecore/templates/Chartwell",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellTemplatesFeatureCommCenter",
+                "path": "/sitecore/templates/Feature/CommunicationCentre",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellTemplatesFeatureProfessionalsBlog",
+                "path": "/sitecore/templates/Feature/ProfessionalsBlog",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellTemplatesFeatureXBlog",
+                "path": "/sitecore/templates/Feature/XBlog",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellTemplatesUserDefinedChartwell",
+                "path": "/sitecore/templates/User Defined/Chartwell",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellMediaLibraryFiles",
+                "path": "/sitecore/media library/Files",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellSystemDictionary",
+                "path": "/sitecore/system/Dictionary/Chartwell",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellTestMediaImage",
+                "path": "/sitecore/media library/Images",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+            ,
+            {
+                "name": "ChartwellTemplateProject",
+                "path": "/sitecore/templates/Project",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellContent",
+                "path": "/sitecore/content/Chartwell/Project/Content Shared Folder/",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellContentPromoTypes",
+                "path": "/sitecore/content/Chartwell/Project/Content Shared Folder/PromotionTypes",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellContentSEoArea",
+                "path": "/sitecore/content/Chartwell/Project/Content Shared Folder/Seo Area",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "ChartwellContentPromoTypes",
+                "path": "/sitecore/content/Chartwell/Project/Content Shared Folder/PromotionTypes",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+
+            },
+            {
+                "name": "ChartwellContentPropertyTypes",
+                "path": "/sitecore/content/Chartwell/Project/Content Shared Folder/Property Type",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+
+            },
+            {
+                "name": "ChartwellContentPricingPromo",
+                "path": "/sitecore/content/Chartwell/Project/PricingPromotion",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+
+            },
+            {
+                "name": "ChartwellMediaFilesVideo",
+                "path": "/sitecore/media library/Files/videos",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+
+            },
+
+
+
+            {
+                "name": "DefaultRenderingHost",
+                "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
+                "scope": "singleItem"
+            }
+            */
+        ]
+    }
+}
