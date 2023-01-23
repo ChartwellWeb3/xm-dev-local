@@ -29,5 +29,5 @@ Languages:
       Hint: ServerSideRenderingEngineApplicationUrl
       Value: "http://rendering:3000"
     - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
-      Hint: serverSideRenderingEngineEndpointUrl
+      Hint: ServerSideRenderingEngineEndpointUrl
       Value: "http://rendering:3000/api/editing/render"
