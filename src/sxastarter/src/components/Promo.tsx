@@ -14,6 +14,9 @@ interface Fields {
   PromoText: Field<string>;
   PromoLink: LinkField;
   PromoText2: Field<string>;
+  PromoText3: Field<string>;
+  PromoImage2: ImageField;
+  
 }
 
 type PromoProps = {
@@ -43,12 +46,19 @@ export const Default = (props: PromoProps): JSX.Element => {
               <div className="field-promotext">
                 Commit from local dev env - Front End - Platform Independent - Connected Mode:{' '}
                 <JssRichText field={props.fields.PromoText} />
+                <JssRichText field={props.fields.PromoText2} />
+                <JssRichText field={props.fields.PromoText3} />
               </div>
             </div>
             <div className="field-promolink">
               <JssLink field={props.fields.PromoLink} />
             </div>
+            <div className="field-PromoImage2">
+            <JssImage field={props.fields.PromoImage2} />
           </div>
+          </div>
+
+         
         </div>
       </div>
     );

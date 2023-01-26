@@ -11,6 +11,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Scripts from 'src/Scripts';
 import Chartwelllogo from './chartwell-components/logo';
+import LanguageSelector from './chartwell-components/LanguageSelector';
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = getPublicUrl();
@@ -42,11 +43,13 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <div className={mainClassPageEditing}>
         <header>
           <div id="header">
-            <Chartwelllogo></Chartwelllogo>
+            {/* { <Chartwelllogo></Chartwelllogo> } */}
+           
             {route && <Placeholder name="headless-header" rendering={route} />}</div>
+            {/* <div> <LanguageSelector></LanguageSelector></div> */}
         </header>
         <main>
-          <div>(FE)D:\workspace\xm-cloud-local\xm-dev-local\src\sxastarter\src\Layout.tsx</div>
+          {/* <div>(FE)D:\workspace\xm-cloud-local\xm-dev-local\src\sxastarter\src\Layout.tsx</div> */}
           <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
         </main>
         <footer>

@@ -1,5 +1,6 @@
 import React from "react"
 const Chartwelllogo = () =>{
-    return (<h1>Logo from D:\workspace\xm-cloud-local\xm-dev-local\src\sxastarter\src\chartwell-components\logo.tsx</h1>)
+    return (<h1>JSSLogo</h1>)
 }
 export default Chartwelllogo
+

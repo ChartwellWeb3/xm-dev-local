@@ -101,7 +101,7 @@ if ($LASTEXITCODE -ne 0) {
 
 # Rebuild indexes
 Write-Host "Rebuilding indexes ..." -ForegroundColor Green
-dotnet sitecore index rebuild
+#dotnet sitecore index rebuild
 
 Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
 dotnet sitecore ser push

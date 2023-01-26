@@ -3,7 +3,33 @@
     "namespace": "RenderingHost-overrrideYB",
     "items": {
         "includes": [
-
+            // {
+            //     "name": "templates",
+            //     "path": "/sitecore/templates/Project/xm-dev-demo",
+            //     "allowedPushOperations": "CreateUpdateAndDelete"
+            // },  
+            // {
+            //     "name": "contentRoot",
+            //     "path": "/sitecore/content/xm-dev-demo",
+            //     "allowedPushOperations": "CreateUpdateAndDelete"
+            // },  
+            // {
+            //     "name": "media",
+            //     "path": "/sitecore/media library/Project/xm-dev-demo",
+            //     "allowedPushOperations": "CreateUpdateAndDelete"
+            // },
+            // {   
+            //     "name": "LayoutRendering",
+            //     "path":"/sitecore/layout/Renderings/Project/xm-dev-demo",
+            //     "allowedPushOperations": "CreateUpdateAndDelete"
+            // },
+            
+            // {   
+            //     "name": "LayoutPlaceholderSettinh",
+            //     "path":"/sitecore/layout/Placeholder Settings/Project/xm-dev-demo",
+            //     "allowedPushOperations": "CreateUpdateAndDelete"
+            // }
+            
             /*{
                 "name": "ChartwellTemplates",
                 "path": "/sitecore/templates/Chartwell",
